@@ -6,6 +6,7 @@ const moeda = 'USD-BRL'
     .then(function(response) {
         return response.json()
     })
+
     .then(function(data){
         const dolarAmericano = data.USDBRL
         let dataAtual = new Date(dolarAmericano.create_date)
