@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <!--Link do ico da página-->
+   <link rel="apple-touch-icon" sizes="180x180" href="./img/apple-touch-icon.png">
+   <link rel="icon" type="image/png" sizes="32x32" href="./img/favicon-32x32.png">
+   <link rel="icon" type="image/png" sizes="16x16" href="./img/favicon-16x16.png">
+  <title>Conversor</title>
+  <!--Link da estilização do sidebar-->
+  <link rel="stylesheet" href="./src/components/styles/sidebar.css">
+  <!--Link da estilização do header-->
+  <link rel="stylesheet" href="./src/components/styles/header.css">
+  <!-- Link Home -->
+  <link rel="stylesheet" href="./src/components/styles/home.css">
+</head>
+<!--Estilização da própria página-->
+<style>
+  body {
+    background-color: #222831;
+  }
+</style>
+<body>
+      <!--Header da página-->
+  <header>
+      <img src="./img/favicon.ico" alt="Logo da página">
+    <nav>
+      <ul class="nav_links">
+        <li><a href="./src/components/pages/Conversor/conversorDolarAmericano.html">Dolar Américano</a></li>
+        <li><a href="./src/components/pages/Conversor/conversorEuro.html">Euro</a></li>
+        <li><a href="./src/components/pages/Conversor/conversorReal.html">Real</a></li>
+      </ul>
+    </nav>
+    <a href="#" class="cta"><button>Contato</button></a>
+  </header>
+    <!--Sidebar da página-->
+  <div class="navigation">
+    <ul>
+      <li class="list active">
+        <a href="./src/components/pages/VisaoGeral/visaogeral.html">
+          <span class="icon"><ion-icon name="eye-outline"></ion-icon></span>
+          <span class="title">Visualizar Gráfico</span>
+        </a>
+      </li>
+      <li class="list">
+          <a href="./src/components/pages/Conversor/conversor.html">
+          <span class="icon"><ion-icon name="logo-bitcoin"></ion-icon></span>
+          <span class="title">Conversor</span>
+        </a>
+      </li>
+      <li class="list">
+        <a href="./src/components/pages/Cotacao/cotacao.html">
+          <span class="icon"><ion-icon name="stats-chart-outline"></ion-icon></span>
+          <span class="title">Cotação</span>
+        </a>
+      </li>
+    </ul>
+  </div>
+    <div class="content">
+      <h2>O que é o Projeto ?</h2>
+      <p>A afinidade do projeto é fazer um consumo de uma API com objetivo de converter moedas euro,dólar e real usando o conceito de fetch API.</p>
+      <p>Dividimos o projeto em três partes, uma para visualização de gráfico, uma para conversão e a outra para ver a cotação da moeda.</p>
+    </div>
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+  <script src="./src/components/script/sidebar.js"></script>
+</body>
+</html>

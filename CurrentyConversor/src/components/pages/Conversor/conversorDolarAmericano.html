@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="utf-8" />
+    <!--Link do ico da página-->
+    <link rel="apple-touch-icon" sizes="180x180" href="../../../../img/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="../../../../img/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="../../../../img/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#000000" />
+     <!--Fonts Google - JetBrains Mono-->
+     <link rel="preconnect" href="https://fonts.googleapis.com">
+     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet"> 
+     <!-- Estilização da Conversão de Moedas-->
+    <title>Investimentos</title>
+    <!--Link da estilização do sidebar-->
+      <link rel="stylesheet" href="../../styles/sidebar.css">
+      <!--Link da estilização do header-->
+      <link rel="stylesheet" href="../../styles/header.css">
+      <!--Link da estilização dos campos conversor-->
+      <link rel="stylesheet" href="../../styles/conversor.css">
+      <!--Estilização da própria página-->
+      <style>
+        body {
+          background-color: #222831;
+        }
+        
+      </style>
+  </head>
+  <body>
+    <!--Header da página-->
+    <header>
+      <img src="../../../../img/favicon.ico" alt="Logo da página">
+    <nav>
+      <ul class="nav_links">
+        <li><a href="./conversorDolarAmericano.html">Dolar Américano</a></li>
+        <li><a href="./conversorEuro.html">Euro</a></li>
+        <li><a href="./conversorReal.html">Real</a></li>
+      </ul>
+    </nav>
+    <a href="#" class="cta"><button>Contato</button></a>
+  </header>
+  <!--Sidebar da página-->
+    <div class="navigation">
+        <ul>
+          <li class="list active">
+            <a href="../VisaoGeral/visaogeral.html">
+              <span class="icon"><ion-icon name="eye-outline"></ion-icon></span>
+              <span class="title">Visualizar Gráfico</span>
+            </a>
+          </li>
+          <li class="list">
+            <a href="../Conversor/conversor.html">
+              <span class="icon"><ion-icon name="logo-bitcoin"></ion-icon></span>
+              <span class="title">Conversor</span>
+            </a>
+          </li>
+          <li class="list">
+            <a href="../Cotacao/cotacao.html">
+              <span class="icon"><ion-icon name="stats-chart-outline"></ion-icon></span>
+              <span class="title">Cotação</span>
+            </a>
+          </li>
+        </ul>
+      </div>
+      <!--Conversor da Página-->
+      <div class="area-conversor">
+        <div class="conversor">
+          <div>
+            <img src="../../../../img/estados-unidos.png" alt="Bandeira do Estados Unidos">
+          </div>
+          <form>
+              <input type="text" id="valor" placeholder="Digite um valor">
+              <input class="button" type="button" id="btnConversor" value="Converter Moeda" onclick="conversor(); btnFalse(); btnTrue()">
+              <input class="button" type="button" value="Limpar" id="limpar" onclick="btnLimpar()">
+              <h2 id="saida"></h2>
+          </form>
+        </div>
+      </div>
+      <div class="area-conversor">
+        <div class="conversor">
+          <div>
+            <img src="../../../../img/bandeira-do-brasil.png" alt="Bandeira do Brasil">
+          </div>
+          <form>
+            <input type="text" id="valorRD" placeholder="Digite um valor">
+            <input class="button" type="button" id="btnConversorRD" value="Converter Moeda" onclick="conversorRD(); btnFalseRD(); btnTrueRD()">
+            <input class="button" type="button" value="Limpar" id="limparRD" onclick="btnLimpar()">
+            <h2 id="saidaRD"></h2>
+        </form>
+        </div>
+      </div>
+      <!--Scripts-->
+      <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+      <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+      <script src="../../script/sidebar.js"></script>
+      <script src="../../script/conversorDolarReal.js"></script>
+      <script src="../../script/conversorRealDolar.js"></script>
+  </body>
+</html>

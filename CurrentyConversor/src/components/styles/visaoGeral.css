@@ -1,0 +1,8 @@
+.area-visao{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.visao{
+    width: 75%;
+}

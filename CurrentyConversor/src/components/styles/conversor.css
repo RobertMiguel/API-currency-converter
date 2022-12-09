@@ -1,0 +1,67 @@
+.area-conversor {   
+    display: inline-block;
+    justify-content: space-around;
+    padding-left: 220px;
+    margin-top: 100px;
+}
+.conversor {
+    background-color: #050d1e;
+    width: 350px;
+    height: 400px;
+    padding: 35px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 10px;
+}
+
+.conversor input{
+    margin-top: 10px;
+    background-color: #252A34;
+    border: none;
+    height: 45px;
+    outline: none;
+    border-radius: 8px ; /*Relação as bordas*/
+    color: #fff;
+    padding-left: 10px;
+}
+
+.input::placeholder{
+    color: #fff;
+    font-size: 14px;
+}
+
+.conversor form{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+form [type="button"]{
+    display: block;
+    background-color: #5568ef;
+    font-size: 20px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+
+h2{
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+}
+
+.button:hover{
+    box-shadow: 0 0 1px 3px #fff;
+}
+
+#btnConversor{
+    cursor: not-allowed;
+}
+
+
+
+
+
