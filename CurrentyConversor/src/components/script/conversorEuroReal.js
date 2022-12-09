@@ -9,6 +9,7 @@ const btnConversorER = document.getElementById('btnConversorER')
 function conversorER() {
     fetch(urlER+moedaER)
         .then(function(response){
+        
             return response.json()
         })
         .then(function(data){
