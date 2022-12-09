@@ -5,7 +5,6 @@ const saidaRE = document.querySelector('h2#saidaRE')
 const limparRE = document.getElementById('btnLimparRE')
 const btnConversorRE = document.getElementById('btnConversorRE')
 
-
 function conversorRE() {
     fetch(urlRE+moedaRE)
         .then(function(response){
