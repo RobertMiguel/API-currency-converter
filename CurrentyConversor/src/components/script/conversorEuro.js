@@ -5,7 +5,6 @@ const saidaED = document.querySelector('h2#saidaED')
 const btnLimparED = document.getElementById('btnLimparED')
 const btnConversorED = document.getElementById('btnConversorED')
 
-
 function conversorED() {
     fetch(urlED+moedaED)
         .then(function(response){
