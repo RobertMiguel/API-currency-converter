@@ -23,3 +23,4 @@ const moeda = 'EUR-BRL'
             currency : 'BRL'
         })
     })
+
