@@ -15,7 +15,7 @@ const labels = [
 const data = {
     labels,
     datasets: [{
-        data: [211, 299, 189, 344, 411, 377, 499, 389, 421],
+        data: [5.1, 5.2, 5.6, 5.7, 5, 5.8, 5.6, 5.4, 5.3],
         label: "Cotação do Dolar",
         fill: true,
         backgroundColor : gradient
