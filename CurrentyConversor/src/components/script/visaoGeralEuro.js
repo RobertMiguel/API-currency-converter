@@ -15,7 +15,7 @@ const labels = [
 const data = {
     labels,
     datasets: [{
-        data: [211, 299, 189, 344, 411, 377, 499, 389, 421],
+        data: [5.465,4.85,5.05,5.25,5.45,5.65,5.8],
         label: "Cotação do Euro",
         fill: true,
         backgroundColor : gradient
