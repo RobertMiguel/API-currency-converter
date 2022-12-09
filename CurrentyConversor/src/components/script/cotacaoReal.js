@@ -2,6 +2,7 @@
 const url = 'https://economia.awesomeapi.com.br/last/'
 //Constante com a cotação da moeda inserida
 const moeda = 'BTC-BRL'
+
  fetch(url+moeda)
 
     .then(function(response) {
