@@ -15,7 +15,7 @@ const labels = [
 const data = {
     labels,
     datasets: [{
-        data: [211, 299, 189, 344, 411, 377, 499, 389, 421],
+        data: [87.000,88.000,89.000,90.000,91.000],
         label: "Cotação do Bitcoin",
         fill: true,
         backgroundColor : gradient
