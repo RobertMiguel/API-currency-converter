@@ -23,18 +23,28 @@ https://user-images.githubusercontent.com/90520597/206915167-02dc275a-1734-446a-
 **Explicação do Projeto :**
 > No `index.html` só apresenta um pequeno resumo da pagina, e a afinidade do projeto. Assim é usado a pergunta a pergunta "O que é projeto ?".
 
-## **Página :**
-
+## 【📚】 **Página :**
 ### **1.1**
 A parte mais importante é o conversor de moedas, aonde você entra com o valor e assim é convertido em qual moeda você deseja. Caso o valor do usuário seja menor que zero o campo com valor '' e null, ele vai alertar para você e inserir um campo vazio, pedindo para com que você digite o valor maior que zero. O valor é imprimido dentro da aŕea de conversão e assim funciona para todas as seguintes coatações.
 ### **1.2**
 Assim que o usuário clica em cotações, nela poderar escolher qual cotação deseja, primeira coisa que é exibida na tela é o nome(tag h1) da cotação com a conversão, e embaixo tem os valores, código da moeda, valor unitário dela e assim por diante, as informações são "puxadas" de um arquivo json da API.
 ### **1.3**
 Por último, tem a página "Visão Geral" que é exibido em uma tag html chamada canvas, usando uma biblioteca javascript chamada "chartjs", (infelizmente não foi conseguido colocar a api dentro do gráfico), então o gráfico é "manual", mas foi melhor para ganhar experiência. Voltando, o gráfico é exibido na sua barra lateral valores da cotação, e na barra embaixo do gráfico é exibido os dias que foram inseridos no gráfico. Assim, o gráfico faz uma comparação com os dias e os valores e gera o gráfico.
+## 【🛢️】**Componentes :**
+### **1.1**
+O primeiro componente é sidebar, que foi desenvolvido para facilitar a navegação do usuário, com os botões das páginas citadas acima.
+### **1.2**
+O segundo é navbar com as cotaçẽos das páginas "Dólar Americano", "Euro" e "Real".
+
+<h1 align="center">Projeto Real</h1>
 
 https://user-images.githubusercontent.com/90520597/206917695-310a389a-da5d-4f5c-a1f3-950698f83f88.mp4
 
-## **Componentes :**
+# 【👔】**Desenvolvedores :**
 
-### **1.1**
-O primeiro componente é sidebar, que foi desenvolvido para facilitar a navegação do usuário
+- Akecio
+- Igor
+- Isaac
+- Wilker
+- Robert
+
