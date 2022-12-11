@@ -34,5 +34,7 @@ Por último, tem a página "Visão Geral" que é exibido em uma tag html chamada
 
 https://user-images.githubusercontent.com/90520597/206917695-310a389a-da5d-4f5c-a1f3-950698f83f88.mp4
 
+## **Componentes :**
 
-
+### **1.1**
+O primeiro componente é sidebar, que foi desenvolvido para facilitar a navegação do usuário
