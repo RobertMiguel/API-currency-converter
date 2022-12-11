@@ -30,7 +30,8 @@ A parte mais importante é o conversor de moedas, aonde você entra com o valor 
 ### **1.2**
 Assim que o usuário clica em cotações, nela poderar escolher qual cotação deseja, primeira coisa que é exibida na tela é o nome(tag h1) da cotação com a conversão, e embaixo tem os valores, código da moeda, valor unitário dela e assim por diante, as informações são "puxadas" de um arquivo json da API.
 ### **1.3**
-Por último, tem a página "Visão Geral" que é exibido em uma tag html chamada canvas, usando uma biblioteca javascript chamada "chartjs", (infelizmente não foi conseguido colocar a api dentro do gráfico), então o gráfico é "manual", mas foi melhor para ganhar experiência. Voltando, o gráfico é exibido na sua barra lateral valores da cotação, e na barra embaixo do gráfico é exibido os dias que foram inseridos no gráfico. Assim, o gráfico faz uma comparação com os dias e os valores e gera o gr
+Por último, tem a página "Visão Geral" que é exibido em uma tag html chamada canvas, usando uma biblioteca javascript chamada "chartjs", (infelizmente não foi conseguido colocar a api dentro do gráfico), então o gráfico é "manual", mas foi melhor para ganhar experiência. Voltando, o gráfico é exibido na sua barra lateral valores da cotação, e na barra embaixo do gráfico é exibido os dias que foram inseridos no gráfico. Assim, o gráfico faz uma comparação com os dias e os valores e gera o gráfico.
+
 https://user-images.githubusercontent.com/90520597/206917695-310a389a-da5d-4f5c-a1f3-950698f83f88.mp4
 
 
