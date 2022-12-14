@@ -40,6 +40,18 @@ O segundo é navbar com as cotaçẽos das páginas "Dólar Americano", "Euro" e
 
 https://user-images.githubusercontent.com/90520597/206917695-310a389a-da5d-4f5c-a1f3-950698f83f88.mp4
 
+<h1 align="center">【🪙】Funcionamento do Conversor </h1>
+
+https://user-images.githubusercontent.com/90520597/207487823-705f6ece-fe0d-46e5-9d87-eabea211cbef.mp4
+
+<h1 align="center">【📈】Funcionamento da Cotação </h1>
+
+https://user-images.githubusercontent.com/90520597/207487924-dc90f21f-903d-42f7-a42f-a70f25772908.mp4
+
+<h1 align="center">【📊】Funcionamento da Visão Geral </h1>
+
+https://user-images.githubusercontent.com/90520597/207488020-662b5faf-e886-4392-9955-8bc5a77f96f9.mp4
+
 # 【👔】**Desenvolvedores :**
 
 - Akecio
